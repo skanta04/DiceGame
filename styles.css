@@ -1,0 +1,17 @@
+body {
+    background-color: salmon;
+}
+
+h1 {
+    font-size: 7rem;
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.players {
+    text-align: center;
+    display: grid;
+    gap: 3em;
+    grid-template-columns: 1fr 1fr;
+}
